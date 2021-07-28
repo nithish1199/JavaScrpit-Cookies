@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"
+        integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="out">
+        <b id="error"></b>
+        <form action="welcome.html" id="form">
+            <div class="i1">
+                <label for="user">Username</label>
+                <input type="text" name="username" placeholder="username" id="username">
+            </div>
+            <br>
+            <div class="i2">
+                <label for="pass" id="lab">Password</label>
+                <input type="password" name="password" id="password" placeholder="password">
+            </div>
+            <br>
+            <div class="i3">
+                <input type="checkbox" name="Remember" id="Remember">
+                <label for="Remember">Remember me</label>
+            </div>
+            <div class="i4">
+                <button type="submit" class="but" id="login">Login</button>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

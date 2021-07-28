@@ -1,0 +1,22 @@
+p{
+    display: inline;
+}
+.out{
+    width: 20%;
+    height: 20%;
+    padding: 10%;
+    margin: auto;
+    border: 1px solid black;
+}
+#lab{
+    padding-right: 3px;
+}
+.but{
+    margin-left: 100px;
+}
+.i4{
+    padding-top: 5%;
+}
+#error{
+    color: red;
+}
